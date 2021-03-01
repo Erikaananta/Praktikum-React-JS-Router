@@ -7,9 +7,12 @@ class App extends React.Component{
         return(
             <div>
                 <Navbar />
+                    
                 <Main />
             </div>
         )
     }
 }
 export default App;
+
+

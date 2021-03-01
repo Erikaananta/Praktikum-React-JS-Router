@@ -32,6 +32,19 @@ class Navbar extends React.Component{
                                 Hari Peringatan Lingkungan
                             </Link>
                         </li>
+                        <li className="nav-item">
+                            <Link to="/list" className="nav-link">
+                                List
+                            </Link> 
+                        </li>
+                        <li className="nav-item">
+                        <Link to="/gallery" className="nav-link">
+                            Gallery
+                        </Link> 
+                        <Link to="/cart" className="nav-link">
+                            Cart
+                        </Link>
+                        </li>
                     </ul>
                 </div>
             </div>

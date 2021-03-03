@@ -6,6 +6,7 @@ import Contact from "./pages/Contact"
 import List from './List'
 import Gallery from './pages/Gallery'
 import Cart from './pages/Cart'
+import Pegawai from './pages/Pegawai'
 
 
 class Main extends React.Component{
@@ -18,6 +19,7 @@ class Main extends React.Component{
                 <Route path="/list" component={List} />
                 <Route path="/gallery" component={Gallery} />
                 <Route path="/cart" component={Cart} />
+                <Route path="/pegawai" component={Pegawai} />
             </Switch>
         )
     }
